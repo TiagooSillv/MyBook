@@ -1,6 +1,7 @@
 const buscarLivro = require("../apiBook");
 const meusLivros = require ('../bancoDeDados/bancoDeDados');
 
+
 const mostrarLivro = async (req, res) => {
   const { nomeLivro } = req.params;
 
@@ -46,6 +47,7 @@ const addLivro = async (req, res) => {
     const livros = await buscarLivro(nomeLivro);
 
     if (livros.items && livros.items.length > 0) {
+      
       const descricao = {
         titulo: livros.items[0].volumeInfo.title,
         subtitulo: livros.items[0].volumeInfo.subtitle,
