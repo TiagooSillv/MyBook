@@ -2,18 +2,22 @@
 
 Esta é uma API de gerenciamento de livros que permite aos usuários buscar informações sobre livros na API do Google Books e adicionar livros a uma lista personalizada.
 
+A ideia desse projeto é ajudar as pessoas amantes de livros a organizar seus historicos de podendo adicionar uma nota e comentario e com isso admirar a sua lista de livros crescer a cada dia.
+
 ## Funcionalidades
 
 - Buscar informações sobre livros na API do Google Books.
 - Adicionar livros a uma lista personalizada.
+- Remover livros da sua lista.
 - Visualizar a lista de livros adicionados.
+- Inserir comentarios sobre o livro.
+- Da uma nota pessoal sobre o livro.
 
 ## Tecnologias Utilizadas
 
 - Node.js
 - Express.js
 - Axios
-- Outras dependências do Node.js (listar quaisquer outras dependências aqui)
 
 ## Pré-requisitos
 
